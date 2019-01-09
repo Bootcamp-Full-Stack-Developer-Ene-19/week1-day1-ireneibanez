@@ -39,37 +39,36 @@ blockquote{
     width: 66vw;
     border-collapse: collapse;
     margin-top: 2rem;
-    border: 1px black solid;
+  
   }
 
  .tabla caption{
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     font-weight: bold;
     text-align: left;
-    border: 1px black solid;
-  }
+    }
 
-  .tabla thead tr th, .tabla tbody tr th, .tabla tbody tr td {
-    border: 1px solid rgb(32, 26, 26);
+
+  thead th, 
+  tbody th, 
+  tbody td {
+    border: 1px solid #ddd;
   }
 
   .tabla th, .tabla td{
      padding: 0.5rem;
-     border: 1px black solid;
   }
   
-  .tabla thead {
+  thead th {
     background-color: #3c89ba;
     color: #fff;
-    border: 1px black solid;
-  }
+    }
 
   .tabla tbody tr th {
     background-color: #fffbcf;
-    border: 1px black solid;
-  }
+    }
 
-  .version{
+  td.version{
     font-size: 1.33rem;
     text-align: center;
   }
@@ -81,7 +80,7 @@ blockquote{
     background-color: #eee;
   }
 
-  code.version{
+  td .version{
     border-color: rgba(255, 0, 0, 0.15);
     background-color: rgba(255, 0, 0, 0.3);
   
