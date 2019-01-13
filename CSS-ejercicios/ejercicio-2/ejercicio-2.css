@@ -1,0 +1,87 @@
+/*Ejercicio 1 CSS*/
+
+* {
+  color: #333333;
+  font-family: Arial;
+}
+  
+h1, h2 {
+  color: #4A90E2;
+}
+
+.parrafo{
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.acronimo{
+  font-family: monospace;
+  font-size: .85rem;
+}
+
+#ultimo{
+  width: 80vw;
+}
+
+blockquote{
+  color: #666666;
+  font-family: serif;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/*Ejercicio 2 CSS*/
+
+.tabla{
+    width: 66vw;
+    border-collapse: collapse;
+    margin-top: 2rem;
+  
+  }
+
+ .tabla caption{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: left;
+    }
+
+
+  thead th, 
+  tbody th, 
+  tbody td {
+    border: 1px solid #ddd;
+  }
+
+  .tabla th, .tabla td{
+     padding: 0.5rem;
+  }
+  
+  thead th {
+    background-color: #3c89ba;
+    color: #fff;
+    }
+
+  .tabla tbody tr th {
+    background-color: #fffbcf;
+    }
+
+  td.version{
+    font-size: 1.33rem;
+    text-align: center;
+  }
+
+  code{
+    border: 1px solid rgba(180, 180, 180, .3);
+    border-radius: 4px;
+    padding: .25rem;
+    background-color: #eee;
+  }
+
+  td .version{
+    border-color: rgba(255, 0, 0, 0.15);
+    background-color: rgba(255, 0, 0, 0.3);
+  
+  }
